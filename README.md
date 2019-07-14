@@ -8,7 +8,7 @@ As informações contidas na interface são **estáticas** e não precisam refle
 
 ## Tela da aplicação
 
-![Facebook](assets-desafio/facebook.png)
+![Facebook](https://github.com/Rocketseat/bootcamp-gostack-desafio-04/blob/master/assets-desafio/facebook.png)
 
 O layout não precisa ficar exatamente igual, você pode utilizar sua criatividade para modificar da maneira que preferir.
 
@@ -20,7 +20,7 @@ O layout da aplicação está em [nesse link](assets-desafio/layout.sketch) que 
 
 Na imagem abaixo destaquei cada componente que você criará e abaixo da imagem está a descrição e responsabilidades de cada um:
 
-![Componentes](assets-desafio/components.png)
+![Componentes](https://github.com/Rocketseat/bootcamp-gostack-desafio-04/blob/master/assets-desafio/components.png)
 
 **Header (Amarelo):** Responsável por exibir a logo e o link para acessar o perfil;
 
@@ -69,6 +69,10 @@ posts.map(post => <Post key={post.id} data={post} />)
 ```js
 data.comments.map(comment => <Comment key={comment.id} data={comment} />)
 ```
+
+## Entrega
+
+Esse desafio **não precisa ser entregue** e não receberá correção, mas você pode ver o resultado do código do desafio aqui: https://github.com/Rocketseat/bootcamp-gostack-desafio-04
 
 Após concluir o desafio, adicionar esse código ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
 
