@@ -34,7 +34,7 @@ class PostList extends Component {
         id: 1,
         author: {
           name: 'Diego Fernandes',
-          avatar: 'http://url-da-imagem.com/imagem.jpg',
+          avatar: 'http://url-da-imagem.com/imagem.jpg'
         },
         date: '04 Jun 2019',
         content: 'Pessoal, alguém sabe se a Rocketseat está contratando?',
@@ -43,17 +43,17 @@ class PostList extends Component {
             id: 1,
             author: {
               name: 'Diego Fernandes',
-              avatar: 'http://url-da-imagem.com/imagem.jpg',
+              avatar: 'http://url-da-imagem.com/imagem.jpg'
             },
-            content: 'Conteúdo do comentário',
-          },
+            content: "Conteúdo do comentário"
+          }
         ],
       },
       {
         id: 2,
         // Restante dos dados de um novo post
-      },
-    ],
+      }
+    ]
   };
 }
 ```
@@ -61,20 +61,15 @@ class PostList extends Component {
 **Post (Vermelho):** Responsável por exibir os dados do post, esses dados devem vir através de uma propriedade recebida do componente PostList, ou seja, lá no PostList você terá algo assim:
 
 ```js
-posts.map(post => <Post key={post.id} data={post} />);
+posts.map(post => <Post key={post.id} data={post} />)
 ```
 
 **Comment (Azul):** Responsável por exibir um comentário. Os dados do comentário virão por uma propriedade do componente. Dentro do componente Post você terá um novo `.map` para listar os comentários do post:
 
 ```js
-data.comments.map(comment => <Comment key={comment.id} data={comment} />);
+data.comments.map(comment => <Comment key={comment.id} data={comment} />)
 ```
-
-## Entrega
-
-Esse desafio **não precisa ser entregue** e não receberá correção, mas você pode ver o resultado do código do desafio aqui: https://github.com/Rocketseat/bootcamp-gostack-desafio-04
 
 Após concluir o desafio, adicionar esse código ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
 
 “Sucesso não é o resultado de um jogo, mas o destino de uma jornada”!
-.
