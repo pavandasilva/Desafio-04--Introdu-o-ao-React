@@ -1,0 +1,29 @@
+header {
+  background: #4a90e2;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+img#facebook {
+  width: 120px;
+}
+
+span {
+  font-weight: bold;
+  font-size: 16px;
+}
+div#perfil {
+  display: flex;
+  align-items: center;
+}
+
+div#perfil i {
+  margin-left: 10px;
+  font-size: 30px;
+}

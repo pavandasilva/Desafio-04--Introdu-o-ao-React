@@ -1,0 +1,14 @@
+div#wrapper {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+div#comment {
+  background: #eeeeee;
+  border-radius: 15px;
+  padding: 10px 15px 10px;
+  margin-left: 10px;
+  flex: 1;
+}
